@@ -177,22 +177,3 @@ a {
     color: #000;
     background: var(--clr-primary-5);
 }
-/* Media Query */
-@media only screen and (max-width: 900px){
-    html{
-        font-size: 50%; /*1rem = 8px*/
-    }
-}
-@media only screen and (max-width: 700px){
-    .review__container{
-        max-width: 50%;
-    }
-    body{
-        line-height: 1.25;
-    }
-}
-@media only screen and (max-width: 500px){
-    .review__container{
-        max-width: 55%;
-    }
-}
